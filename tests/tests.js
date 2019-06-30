@@ -4,7 +4,7 @@ var expect = require('chai').expect
 
 
 describe('filterLogs', () => {
-  it('retuns the logs for the environment and date provided', () => {
+  it('returns the logs for the environment and date provided', () => {
     const expectedLogs = [
       { environment: 'qa', timestamp: 1553796277000, message: 'Error: could not find property `price` of undefined' },
       { environment: 'qa', timestamp: 1553810677000, message: 'Error: array index out of range' },
